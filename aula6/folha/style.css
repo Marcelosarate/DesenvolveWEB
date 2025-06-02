@@ -57,3 +57,20 @@ font-size: 30px;
     color:  #c41e1e;
 
 }
+#portfolio {
+    padding: 50px 0;
+
+}
+
+.lista-trabalhos {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px,1fr)) ;
+    gap: 40px;
+    margin-top: 50px;
+
+}
+.trabalhos {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden; /*o conteúdo que ultrapssar os limites do elemento serão ocultados */
+}
